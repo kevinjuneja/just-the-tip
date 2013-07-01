@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *amtNoTip;
+@property (weak, nonatomic) IBOutlet UILabel *tipTotalAmt;
+@property (weak, nonatomic) IBOutlet UILabel *tipAmt;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *qService;
+@property double amt;
 
 @end
